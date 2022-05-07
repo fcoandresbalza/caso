@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Casanova</title>
+    <link rel="stylesheet" href="build/css/app.css">
+    <script src="https://kit.fontawesome.com/529b6de91d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header_barra">
+        <div class="logo">
+            <a href="index.html">
+                <p>Carlos <span>Casanova</span></p>
+            </a>
+        </div>
+
+        <div class="navegacion">
+            <a class="seccion" href="#about">About</a>
+            <a class="seccion" href="#skills">Skills</a>
+            <a class="seccion seleccionado" href="#contact">Contact</a>
+        </div>
+    </div>
+    <header class="header">
+
+
+        <div class="header_contenido contenedor">
+            <div class="info">
+                <h2>AWS Certified Solutions Architect - Qualified Bachelor in Computer Sciences.</h2>
+            </div>
+        </div>
+    </header> <!--Header-->
+
+
+    <section id="about" class="contenedor">
+        <div class="about">
+            <div class="resumen">
+                <h2>About</h2>
+
+                <p>Qualified Bachelor in Computer Sciences. AWS Certified Solutions Architect. Versatile, bilingual professional. Open to changes and easy to adapt to new environments.</p>
+
+                <a href="https://bucket-for-cv-resume.s3.amazonaws.com/Carlos+Casanova+CV.pdf" class="boton">Download Resume</a>
+
+            </div>
+
+            <div class="imagen">
+                <picture>
+                    <source srcset="build/img/Carlos.avif" type="image/avif">
+                    <source srcset="build/img/Carlos.webp" type="image/webp">
+                    <img loading="lazy" src="build/img/Carlos.jpg" alt="imagen carlos">
+                </picture>
+            </div>
+        </div>
+    </section> <!--about-->
+
+    <div id="skills" class="skills">
+        <div class=" iconos contenedor">
+            <h2>Skills</h2>
+            <ul class="servicios">
+                <li class="servicio">Cloudwatch</li>
+                <li class="servicio">Lambda</li>
+                <li class="servicio">EC2</li>
+                <li class="servicio">RDS</li>
+                <li class="servicio">IAM</li>
+                <li class="servicio">S3</li>
+                <li class="servicio">VPC</li>
+                <li class="servicio">ROUTE 53</li>
+                <li class="servicio">Cloudfront</li>
+                <li class="servicio">Cloudtrail</li>
+                <li class="servicio">ECS</li>
+                <li class="servicio">EKS</li>
+                <li class="servicio">Fargate</li>
+                <li class="servicio">Kinesis</li>
+                
+            </ul>
+        </div>
+    </div> <!--Skills-->
+
+    <div id="contact" class="contacto">
+        <div class="formulario contenedor-sm">
+            <h2>Text Me</h2>
+            <form method="POST" action="https://formspree.io/f/xvolvjvq">
+                <div class="campo">
+                    <label for="nombre">Name: </label>
+                    <input type="text" name="nombre" placeholder="Name">
+                </div>
+                <div class="campo">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Message:</label>
+                    <textarea name="mensaje" placeholder="Message"></textarea>
+                </div>
+
+                <input type="submit" class="boton" value="Send">
+            </form>
+        </div>
+    </div> <!--Contacto-->
+
+    <footer>
+        <div class="contenedor">
+            <div class="redes">
+                <nav>
+                    <a class="btn-redes" href="https://www.linkedin.com/in/carlos-casanova-a715a3a4/" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a class="btn-redes" href="https://www.instagram.com/ccasanovac/" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="btn-redes" href="https://api.whatsapp.com/send?phone=12817717548&text=" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-whatsapp"></i></a>
+                </nav>
+                <p>Carlos Casanova <i class="fa-solid fa-copyright"></i></p>
+            </div>
+        </div>
+    </footer> <!--Footer-->
+    
+</body>
+
+<script src="build/js/bundle.js"></script>
+</html>
